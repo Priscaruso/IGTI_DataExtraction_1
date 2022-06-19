@@ -9,6 +9,8 @@
 
 :small_blue_diamond: [Execução](#execução)
 
+:small_blue_diamond: [Arquivo único com os dados da pesquisa](#arquivo-único-com-os-dados-da-pesquisa)
+
 :small_blue_diamond: [Banco de Dados MySQL](#banco-de-dados-mysql)
 
 :small_blue_diamond: [Diagrama entidade e relacionamento](#diagrama-entidade-e-relacionamento)
@@ -46,6 +48,8 @@
   'python -m venv /path/to/directory', onde /path/to/directory é o diretório onde será criado o ambiente virtual e depois ativar o ambiente virtual com o comando '.      /path/to/directory/bin/activate'.
   Depois é necessário baixar o arquivo do notebook 'coleta_dados_pesquisa.ipynb' e o dataset usado contido na pasta 'BASE_TP'. Depois é só fazer o upload do notebook     para o Google Colab, seguir cada passo descrito no notebook, fazendo os ajustes necessários no notebook quanto ao local de armazenamento do dataset e aos dados de     conexão para acessar o banco MySQL.
   
+## Arquivo único com os dados da pesquisa
+  Após juntar todos os dados da pesquisa em um único dataframe é gerado o arquivo 'dados_pesquisa.csv', que pode ser usado para outras análises. 
  
  ## Banco de dados MySQL
   Para criar as estruturas de tabelas para armazenar os dados da pesquisa, foi utilizado o Banco de Dados relacional MySQL. Para usá-lo baixar instalar seguindo as       instruções no link abaixo, dependendo do sistema operacional:
